@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Iv-Gx-pmc">
-    <device id="ipad10_5" orientation="portrait">
-        <adaptation id="fullscreen"/>
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="splitview1_2"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController storyboardIdentifier="Page1" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tw7-3W-7Qp" customClass="Page1ViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0FB-r5-gim">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1048"/>
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jxH-fr-7o5">
-                                <rect key="frame" x="110" y="484" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="312" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491762161255" green="0.729411780834198" blue="0.75686275959014893" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="GrH-C1-0Uj"/>
@@ -30,13 +30,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pagina 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="arC-ab-6qK">
-                                <rect key="frame" x="128.5" y="20" width="63.5" height="21"/>
+                                <rect key="frame" x="221.5" y="20" width="64" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="laN-ph-2pm">
-                                <rect key="frame" x="110" y="594" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="422" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="lLI-Zw-0nF"/>
@@ -48,7 +48,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEk-K8-HSN">
-                                <rect key="frame" x="139" y="1007.5" width="42" height="20.5"/>
+                                <rect key="frame" x="232.5" y="663.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -81,7 +81,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UO6-em-kK7" customClass="NavMasterViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="tWk-YP-SZX">
-                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="507" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -110,17 +110,17 @@
             <objects>
                 <viewController storyboardIdentifier="Page0" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="Page0ViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1048"/>
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pagina 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDk-Fc-hYA">
-                                <rect key="frame" x="126.5" y="20" width="67" height="21"/>
+                                <rect key="frame" x="220" y="20" width="67" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thk-zc-5zg">
-                                <rect key="frame" x="110" y="484" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="312" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Xps-aW-jm4"/>
@@ -132,7 +132,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIM-XE-6w5">
-                                <rect key="frame" x="110" y="594" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="422" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="fSB-As-YgV"/>
@@ -167,7 +167,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LP3-WG-NcU" customClass="NavDetailViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="BZE-uK-tyP">
-                        <rect key="frame" x="0.0" y="20" width="834" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="507" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -184,11 +184,11 @@
             <objects>
                 <viewController storyboardIdentifier="Page2" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2aD-ud-GAK" customClass="Page2ViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6xw-fA-eea">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1048"/>
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Dmr-rq-jnq">
-                                <rect key="frame" x="127" y="20" width="66" height="20.5"/>
+                                <rect key="frame" x="220.5" y="20" width="66" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pagina 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MLb-lA-gz6">
                                         <rect key="frame" x="0.0" y="0.0" width="66" height="20.5"/>
@@ -199,7 +199,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Co-Zt-H8V">
-                                <rect key="frame" x="110" y="484" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="312" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="cmk-yJ-gak"/>
@@ -211,7 +211,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ak8-jY-EMy">
-                                <rect key="frame" x="110" y="374" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="202" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="X0v-XY-vb3"/>
@@ -223,7 +223,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3U6-Gg-lIU">
-                                <rect key="frame" x="139" y="1007.5" width="42" height="20.5"/>
+                                <rect key="frame" x="232.5" y="663.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -256,11 +256,11 @@
             <objects>
                 <viewController storyboardIdentifier="Page3" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qi8-lg-lOP" customClass="Page3ViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="9tD-MW-HCM">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1048"/>
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hbz-pQ-UtE">
-                                <rect key="frame" x="127" y="20" width="66.5" height="20.5"/>
+                                <rect key="frame" x="220.5" y="20" width="66.5" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pagina 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ph-FB-k8W">
                                         <rect key="frame" x="0.0" y="0.0" width="66.5" height="20.5"/>
@@ -271,7 +271,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F3s-m2-Jpx">
-                                <rect key="frame" x="110" y="484" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="312" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="bdF-XV-eZb"/>
@@ -283,13 +283,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKJ-8N-RrP">
-                                <rect key="frame" x="139" y="1007.5" width="42" height="20.5"/>
+                                <rect key="frame" x="232.5" y="663.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hce-JI-CHG">
-                                <rect key="frame" x="110" y="384" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="212" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="PXb-UJ-gJC"/>
@@ -328,11 +328,11 @@
             <objects>
                 <viewController storyboardIdentifier="Page4" useStoryboardIdentifierAsRestorationIdentifier="YES" id="kyW-QS-ENV" customClass="Page4ViewController" customModule="SplitTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cef-Zv-lc8">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1048"/>
+                        <rect key="frame" x="0.0" y="0.0" width="507" height="704"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="1j1-bZ-B2I">
-                                <rect key="frame" x="127" y="20" width="66.5" height="20.5"/>
+                                <rect key="frame" x="220.5" y="20" width="66.5" height="20.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pagina 4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayn-KE-q0v">
                                         <rect key="frame" x="0.0" y="0.0" width="66.5" height="20.5"/>
@@ -343,7 +343,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5Z-gk-bZO">
-                                <rect key="frame" x="110" y="484" width="100" height="80"/>
+                                <rect key="frame" x="203.5" y="312" width="100" height="80"/>
                                 <color key="backgroundColor" red="0.73725491759999995" green="0.72941178080000002" blue="0.75686275960000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="BXy-gb-K21"/>
@@ -355,7 +355,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nig-Lj-07n">
-                                <rect key="frame" x="139" y="1007.5" width="42" height="20.5"/>
+                                <rect key="frame" x="232.5" y="663.5" width="42" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
