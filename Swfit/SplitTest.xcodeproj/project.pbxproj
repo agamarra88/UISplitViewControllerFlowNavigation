@@ -55,9 +55,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6994B7B41F8D22A400667626 /* ViewControllers */ = {
+		6994B7B41F8D22A400667626 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				69F485631F896CEF00326B58 /* AppDelegate.swift */,
+				69F4856C1F896CEF00326B58 /* LaunchScreen.storyboard */,
+				69F485671F896CEF00326B58 /* Main.storyboard */,
 				69F4857D1F8AFDFF00326B58 /* Printable.swift */,
 				69F485651F896CEF00326B58 /* Page0ViewController.swift */,
 				69F485751F89743600326B58 /* Page1ViewController.swift */,
@@ -65,7 +68,16 @@
 				69D8DAD61F8B3E2A0071C6AC /* Page3ViewController.swift */,
 				69D8DAD81F8B4A930071C6AC /* Page4ViewController.swift */,
 			);
-			path = ViewControllers;
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		6994B7D71F8E4AC900667626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69F4856A1F896CEF00326B58 /* Assets.xcassets */,
+				69F4856F1F896CEF00326B58 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		69F485571F896CEF00326B58 = {
@@ -87,12 +99,8 @@
 		69F485621F896CEF00326B58 /* SplitTest */ = {
 			isa = PBXGroup;
 			children = (
-				6994B7B41F8D22A400667626 /* ViewControllers */,
-				69F485631F896CEF00326B58 /* AppDelegate.swift */,
-				69F4856A1F896CEF00326B58 /* Assets.xcassets */,
-				69F4856F1F896CEF00326B58 /* Info.plist */,
-				69F4856C1F896CEF00326B58 /* LaunchScreen.storyboard */,
-				69F485671F896CEF00326B58 /* Main.storyboard */,
+				6994B7B41F8D22A400667626 /* Demo */,
+				6994B7D71F8E4AC900667626 /* Supporting Files */,
 				69D8DADA1F8B4F8B0071C6AC /* BaseViewController.swift */,
 				69F485791F8AF89700326B58 /* NavMasterViewController.swift */,
 				69F4857B1F8AF8A300326B58 /* NavDetailViewController.swift */,
