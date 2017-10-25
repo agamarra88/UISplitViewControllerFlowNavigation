@@ -58,17 +58,33 @@
 		6994B7C01F8E4A4000667626 /* UISplitViewControllerFlowNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				6994B7D91F8E4E2100667626 /* Demo */,
+				6994B7D81F8E4E0F00667626 /* Supporting Files */,
+			);
+			path = UISplitViewControllerFlowNavigation;
+			sourceTree = "<group>";
+		};
+		6994B7D81F8E4E0F00667626 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6994B7D01F8E4A4000667626 /* main.m */,
+				6994B7CA1F8E4A4000667626 /* Assets.xcassets */,
+				6994B7CF1F8E4A4000667626 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6994B7D91F8E4E2100667626 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
 				6994B7C11F8E4A4000667626 /* AppDelegate.h */,
 				6994B7C21F8E4A4000667626 /* AppDelegate.m */,
 				6994B7C41F8E4A4000667626 /* ViewController.h */,
 				6994B7C51F8E4A4000667626 /* ViewController.m */,
 				6994B7C71F8E4A4000667626 /* Main.storyboard */,
-				6994B7CA1F8E4A4000667626 /* Assets.xcassets */,
 				6994B7CC1F8E4A4000667626 /* LaunchScreen.storyboard */,
-				6994B7CF1F8E4A4000667626 /* Info.plist */,
-				6994B7D01F8E4A4000667626 /* main.m */,
 			);
-			path = UISplitViewControllerFlowNavigation;
+			name = Demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
